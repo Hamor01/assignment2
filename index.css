@@ -1,4 +1,4 @@
-.main-part{
+.main{
     display: flex;
     padding: 2px;
     width: 100%;
@@ -21,14 +21,14 @@ input,
     justify-content: center;
     margin: 2px;
 }
-.small-headline{
+.small{
     padding-inline: 10%;
 }
-.form-part{
+.form{
     margin-left: 10px;
     width: 100%;
 }
-.map-part{
+.map{
     margin-right: 1rem;
     width: 100%;
 }
@@ -42,38 +42,34 @@ input{
     border-radius: 5%;
 
 }
-body, .main-part {
+body, .main {
     height: 100vh;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 input::placeholder, textarea::placeholder {
     color: white;
 }
 .text-area{
     margin: 2%;
-    background-color: gray;
+    background-color: grey;
     width: 93%;
     /* border-radius: 6%; */
     align-items: start;
 }
-.submit-btn{
+.submit{
     width: 20%;
     border-radius: 5px;
-}
-.map-container{
-    /* border-radius: 8%; */
-    margin-left: 2px;
-}
-.submit-btn{
     align-items: start;
     margin-left: 5px;
     height: 50px;
-    width: 200px;
-    border-radius: 5%;
-    background-color: gray;
+}
+.map{
+    /* border-radius: 8%; */
+    margin-left: 2px;
 }
 
-.first-part{
+
+.first{
     margin-top: 3px;
     height: 100%;
 }
